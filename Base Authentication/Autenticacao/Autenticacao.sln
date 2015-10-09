@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormAuthentication", "Autenticacao\FormAuthentication.csproj", "{F88673A5-0A98-4FF5-9A42-B5A436011C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuth", "..\BasicAuth\BasicAuth\BasicAuth.csproj", "{6D96DD1C-672B-4225-9AE8-F89F0D6F9D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIBasicAuth", "WebAPIBasicAuth\WebAPIBasicAuth.csproj", "{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientAuth", "ClientAuth\ClientAuth.csproj", "{F9514CB5-9A24-4873-A9B5-E9C85D3197C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F88673A5-0A98-4FF5-9A42-B5A436011C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88673A5-0A98-4FF5-9A42-B5A436011C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88673A5-0A98-4FF5-9A42-B5A436011C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88673A5-0A98-4FF5-9A42-B5A436011C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D96DD1C-672B-4225-9AE8-F89F0D6F9D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D96DD1C-672B-4225-9AE8-F89F0D6F9D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D96DD1C-672B-4225-9AE8-F89F0D6F9D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D96DD1C-672B-4225-9AE8-F89F0D6F9D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9514CB5-9A24-4873-A9B5-E9C85D3197C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9514CB5-9A24-4873-A9B5-E9C85D3197C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9514CB5-9A24-4873-A9B5-E9C85D3197C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9514CB5-9A24-4873-A9B5-E9C85D3197C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

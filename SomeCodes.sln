@@ -26,6 +26,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ConsumingWCFWithCSharp(2)",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_EF_Scaffolding", "TesteBD\TesteBD\MVC_EF_Scaffolding.csproj", "{6358D3F9-986D-410D-A3E8-3A8CAD6BD97F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic Authentication", "Basic Authentication", "{8AFE3BD0-90AE-4013-A9CB-4BBC3A6BD689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIBasicAuth", "Base Authentication\Autenticacao\WebAPIBasicAuth\WebAPIBasicAuth.csproj", "{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientAuth", "Base Authentication\ClientAuth\ClientAuth\ClientAuth.csproj", "{8B8FD311-75F6-4630-8A3C-2C101E2F8265}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,8 +46,20 @@ Global
 		{6358D3F9-986D-410D-A3E8-3A8CAD6BD97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6358D3F9-986D-410D-A3E8-3A8CAD6BD97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6358D3F9-986D-410D-A3E8-3A8CAD6BD97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8FD311-75F6-4630-8A3C-2C101E2F8265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8FD311-75F6-4630-8A3C-2C101E2F8265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8FD311-75F6-4630-8A3C-2C101E2F8265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8FD311-75F6-4630-8A3C-2C101E2F8265}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A1D2ACE-1BEA-4AB6-A4E4-8C34081D797B} = {8AFE3BD0-90AE-4013-A9CB-4BBC3A6BD689}
+		{8B8FD311-75F6-4630-8A3C-2C101E2F8265} = {8AFE3BD0-90AE-4013-A9CB-4BBC3A6BD689}
 	EndGlobalSection
 EndGlobal
