@@ -1,0 +1,31 @@
+<html ng-app="detail">
+<head>
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <script src="http://code.ionicframework.com/nightly/js/ionic.bundle.js?4"></script>
+
+  <script src="js/Pacote.js"></script>
+</head>
+<body ng-controller="MeuDetalhe" >
+  <ion-header-bar class="bar-positive">
+    <h1 class="title">Detalhe</h1>
+  </ion-header-bar>
+
+  <ion-content has-header="true" has-footer="true">
+    <div class="list card">
+      <ion-item class="list" ng-repeat="detalhe in detalhes">
+        {{detalhe.Nome}}<br />
+        Dias {{detalhe.Dias}}<br />
+        Noites {{detalhe.Noites}}<br />
+        <ul class="list" ng-repeat="inclui in incluis">
+          <li class="item">  {{inclui.Descricao}} </li>
+        </ul>
+
+      </ion-item>
+    </div>
+  </ion-content>
+
+  <ion-footer-bar align-title="left" class="bar-positive">
+  <button class="button" ng-click="goBack()">Voltar</button>
+</ion-fotter-bar>
+  </body>
+  </html>
