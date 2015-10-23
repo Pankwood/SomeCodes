@@ -17,7 +17,7 @@ public class Client
     public static List<CidadeResult> MyList()  
     {
         //Initializes a new WebRequest instance for the specified URI scheme.
-        WebRequest request = WebRequest.Create("https://webservices.mmtgapnet.com.br/Service/Cidades.svc/Cidade/c0e93a74-ee02-4689-a222-6b3fa592975f");
+        WebRequest request = WebRequest.Create("IMPUT WEBAPI LINK");
         //Returns a response from an Internet resource.
         WebResponse ws = request.GetResponse();
         //Deserialize the string and transform in memory object
